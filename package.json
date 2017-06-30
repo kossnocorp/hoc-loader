@@ -1,0 +1,30 @@
+{
+  "name": "hoc-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader that wraps component modules into given HoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kossnocorp/hoc-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "hoc",
+    "webpack-loader",
+    "react",
+    "preact"
+  ],
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kossnocorp/hoc-loader/issues"
+  },
+  "homepage": "https://github.com/kossnocorp/hoc-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
