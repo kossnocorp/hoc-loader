@@ -5,7 +5,7 @@ module.exports = function (source) {
     path,
     useDefault,
     exportVar = 'module.exports'
-  } = loaderUtils.parseQuery(this.query)
+  } = loaderUtils.getOptions(this) || {}
 
   return `
 ${source}
